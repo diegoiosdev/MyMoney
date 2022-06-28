@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LoginViewCode.swift
 //  MyMoney
 //
 //  Created by Diego Fernando on 26/06/22.
@@ -8,7 +8,7 @@ import UIKit
 import SnapKit
 
 
-class ViewController: UIViewController {
+class LoginViewCode: UIViewController {
     
     var loginScreen = LoginScreen()
     
@@ -32,7 +32,7 @@ class ViewController: UIViewController {
 
 // MARK: - Settings extension
 
-extension ViewController: UITextFieldDelegate {
+extension LoginViewCode: UITextFieldDelegate {
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
@@ -41,7 +41,7 @@ extension ViewController: UITextFieldDelegate {
 
 // MARK: - Settings Protocol
 
-extension ViewController: LoginScreenProtocol{
+extension LoginViewCode: LoginScreenProtocol{
     func actionLoginButton() {
         print("Deu ok")
 //        self.navigationController?.pushViewController(<#T##viewController: UIViewController##UIViewController#>, animated: <#T##Bool#>)
