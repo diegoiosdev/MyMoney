@@ -1,0 +1,16 @@
+//
+//  ScreenViewController.swift
+//  MyMoney
+//
+//  Created by Diego Fernando on 27/06/22.
+//
+
+import Foundation
+import UIKit
+import SnapKit
+
+class ScreenViewController: ViewController {
+    
+    
+    
+}
