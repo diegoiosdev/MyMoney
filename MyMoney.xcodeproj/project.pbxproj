@@ -20,9 +20,9 @@
 		2A9E898B2869E0FA00B4380B /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9E898A2869E0FA00B4380B /* LoginScreen.swift */; };
 		2A9E89AC286A334400B4380B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9E89AB286A334400B4380B /* RegisterViewController.swift */; };
 		2A9E89FC286A520200B4380B /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9E89FB286A520200B4380B /* RegisterScreen.swift */; };
-		BCD8AA325E2EFFCFA8F33528 /* Pods_MyMoney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C998511907106087E7B66CBC /* Pods_MyMoney.framework */; };
-		BE7085C2F428123FB6D5C64E /* Pods_MyMoney_MyMoneyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EAD915B3B1BAFABA6BE9F2 /* Pods_MyMoney_MyMoneyUITests.framework */; };
-		D1A876538719B2150335546C /* Pods_MyMoneyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B63778254F26C5BD98CB45 /* Pods_MyMoneyTests.framework */; };
+		3E3B5CC660B3F005E7BDC50D /* Pods_MyMoney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F57F1859D21D08E60BF3BAA /* Pods_MyMoney.framework */; };
+		4786085449D04CDFBFA1FFF2 /* Pods_MyMoney_MyMoneyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3117AA5CD357C13B98E83A2 /* Pods_MyMoney_MyMoneyUITests.framework */; };
+		F0917DB53233B4B4893AB581 /* Pods_MyMoneyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 702B817B3F0BAAF12DDD566C /* Pods_MyMoneyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F1DBE5FFFCFA754EFF3F242 /* Pods-MyMoney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMoney.release.xcconfig"; path = "Target Support Files/Pods-MyMoney/Pods-MyMoney.release.xcconfig"; sourceTree = "<group>"; };
 		2A6F6D802868C0EA00D25435 /* MyMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A6F6D832868C0EA00D25435 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A6F6D852868C0EA00D25435 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,15 +63,14 @@
 		2A9E898A2869E0FA00B4380B /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		2A9E89AB286A334400B4380B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		2A9E89FB286A520200B4380B /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
-		36B63778254F26C5BD98CB45 /* Pods_MyMoneyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMoneyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		403851A0D3E0E97638C14425 /* Pods-MyMoney-MyMoneyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMoney-MyMoneyUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyMoney-MyMoneyUITests/Pods-MyMoney-MyMoneyUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		4A33FBA3EE1EF61F819C3202 /* Pods-MyMoney-MyMoneyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMoney-MyMoneyUITests.release.xcconfig"; path = "Target Support Files/Pods-MyMoney-MyMoneyUITests/Pods-MyMoney-MyMoneyUITests.release.xcconfig"; sourceTree = "<group>"; };
-		56EAD915B3B1BAFABA6BE9F2 /* Pods_MyMoney_MyMoneyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMoney_MyMoneyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C998511907106087E7B66CBC /* Pods_MyMoney.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMoney.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEC58327E1F167EBBE3C3217 /* Pods-MyMoneyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMoneyTests.release.xcconfig"; path = "Target Support Files/Pods-MyMoneyTests/Pods-MyMoneyTests.release.xcconfig"; sourceTree = "<group>"; };
-		E21D2E40EBC527E28912A2AD /* Pods-MyMoney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMoney.debug.xcconfig"; path = "Target Support Files/Pods-MyMoney/Pods-MyMoney.debug.xcconfig"; sourceTree = "<group>"; };
-		F355389CB659F36751E6344F /* Pods-MyMoney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMoney.release.xcconfig"; path = "Target Support Files/Pods-MyMoney/Pods-MyMoney.release.xcconfig"; sourceTree = "<group>"; };
-		F4FE69B54474A7F37F3791A8 /* Pods-MyMoneyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMoneyTests.debug.xcconfig"; path = "Target Support Files/Pods-MyMoneyTests/Pods-MyMoneyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F57F1859D21D08E60BF3BAA /* Pods_MyMoney.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMoney.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F131ACAF76BE9BC4FE5D11A /* Pods-MyMoney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMoney.debug.xcconfig"; path = "Target Support Files/Pods-MyMoney/Pods-MyMoney.debug.xcconfig"; sourceTree = "<group>"; };
+		702B817B3F0BAAF12DDD566C /* Pods_MyMoneyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMoneyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84590BD8B2C95D78597BC399 /* Pods-MyMoney-MyMoneyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMoney-MyMoneyUITests.release.xcconfig"; path = "Target Support Files/Pods-MyMoney-MyMoneyUITests/Pods-MyMoney-MyMoneyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8F141D5BDA7496678A70B5F0 /* Pods-MyMoneyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMoneyTests.debug.xcconfig"; path = "Target Support Files/Pods-MyMoneyTests/Pods-MyMoneyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E8AC3980779B48D23A58C49 /* Pods-MyMoneyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMoneyTests.release.xcconfig"; path = "Target Support Files/Pods-MyMoneyTests/Pods-MyMoneyTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB296D0A43A67A0492507118 /* Pods-MyMoney-MyMoneyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMoney-MyMoneyUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyMoney-MyMoneyUITests/Pods-MyMoney-MyMoneyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3117AA5CD357C13B98E83A2 /* Pods_MyMoney_MyMoneyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMoney_MyMoneyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCD8AA325E2EFFCFA8F33528 /* Pods_MyMoney.framework in Frameworks */,
+				3E3B5CC660B3F005E7BDC50D /* Pods_MyMoney.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1A876538719B2150335546C /* Pods_MyMoneyTests.framework in Frameworks */,
+				F0917DB53233B4B4893AB581 /* Pods_MyMoneyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,13 +94,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE7085C2F428123FB6D5C64E /* Pods_MyMoney_MyMoneyUITests.framework in Frameworks */,
+				4786085449D04CDFBFA1FFF2 /* Pods_MyMoney_MyMoneyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17F7A85BCD6628AF460C6AC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F57F1859D21D08E60BF3BAA /* Pods_MyMoney.framework */,
+				B3117AA5CD357C13B98E83A2 /* Pods_MyMoney_MyMoneyUITests.framework */,
+				702B817B3F0BAAF12DDD566C /* Pods_MyMoneyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2A6F6D772868C0EA00D25435 = {
 			isa = PBXGroup;
 			children = (
@@ -111,7 +121,7 @@
 				2A6F6DA72868C0EE00D25435 /* MyMoneyUITests */,
 				2A6F6D812868C0EA00D25435 /* Products */,
 				CB67478143232805A0881E6E /* Pods */,
-				EF5E8E5943CBD0D94978CB95 /* Frameworks */,
+				17F7A85BCD6628AF460C6AC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -211,24 +221,14 @@
 		CB67478143232805A0881E6E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E21D2E40EBC527E28912A2AD /* Pods-MyMoney.debug.xcconfig */,
-				F355389CB659F36751E6344F /* Pods-MyMoney.release.xcconfig */,
-				403851A0D3E0E97638C14425 /* Pods-MyMoney-MyMoneyUITests.debug.xcconfig */,
-				4A33FBA3EE1EF61F819C3202 /* Pods-MyMoney-MyMoneyUITests.release.xcconfig */,
-				F4FE69B54474A7F37F3791A8 /* Pods-MyMoneyTests.debug.xcconfig */,
-				DEC58327E1F167EBBE3C3217 /* Pods-MyMoneyTests.release.xcconfig */,
+				3F131ACAF76BE9BC4FE5D11A /* Pods-MyMoney.debug.xcconfig */,
+				1F1DBE5FFFCFA754EFF3F242 /* Pods-MyMoney.release.xcconfig */,
+				AB296D0A43A67A0492507118 /* Pods-MyMoney-MyMoneyUITests.debug.xcconfig */,
+				84590BD8B2C95D78597BC399 /* Pods-MyMoney-MyMoneyUITests.release.xcconfig */,
+				8F141D5BDA7496678A70B5F0 /* Pods-MyMoneyTests.debug.xcconfig */,
+				9E8AC3980779B48D23A58C49 /* Pods-MyMoneyTests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		EF5E8E5943CBD0D94978CB95 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C998511907106087E7B66CBC /* Pods_MyMoney.framework */,
-				56EAD915B3B1BAFABA6BE9F2 /* Pods_MyMoney_MyMoneyUITests.framework */,
-				36B63778254F26C5BD98CB45 /* Pods_MyMoneyTests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,11 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A6F6DAD2868C0EE00D25435 /* Build configuration list for PBXNativeTarget "MyMoney" */;
 			buildPhases = (
-				DED817A04FD4B94774EA0D39 /* [CP] Check Pods Manifest.lock */,
+				3ABD01FEF9CDC6CBC1F20997 /* [CP] Check Pods Manifest.lock */,
 				2A6F6D7C2868C0EA00D25435 /* Sources */,
 				2A6F6D7D2868C0EA00D25435 /* Frameworks */,
 				2A6F6D7E2868C0EA00D25435 /* Resources */,
-				CBB7DDF00813B69CC59D20A9 /* [CP] Embed Pods Frameworks */,
+				85C39508F31F6615D6CC7367 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,7 +257,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A6F6DB02868C0EE00D25435 /* Build configuration list for PBXNativeTarget "MyMoneyTests" */;
 			buildPhases = (
-				8B030C79C1B2F8D408E1CC6C /* [CP] Check Pods Manifest.lock */,
+				E208F49EFA9301370F9A41BE /* [CP] Check Pods Manifest.lock */,
 				2A6F6D952868C0EE00D25435 /* Sources */,
 				2A6F6D962868C0EE00D25435 /* Frameworks */,
 				2A6F6D972868C0EE00D25435 /* Resources */,
@@ -276,11 +276,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A6F6DB32868C0EE00D25435 /* Build configuration list for PBXNativeTarget "MyMoneyUITests" */;
 			buildPhases = (
-				D8C484835A210131D0572D8A /* [CP] Check Pods Manifest.lock */,
+				2496EEA9CF510AC081D343F6 /* [CP] Check Pods Manifest.lock */,
 				2A6F6DA02868C0EE00D25435 /* Sources */,
 				2A6F6DA12868C0EE00D25435 /* Frameworks */,
 				2A6F6DA22868C0EE00D25435 /* Resources */,
-				8464862083A969E8D869699A /* [CP] Embed Pods Frameworks */,
+				F882251B1C6CA302037A28DC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -362,63 +362,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8464862083A969E8D869699A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MyMoney-MyMoneyUITests/Pods-MyMoney-MyMoneyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MyMoney-MyMoneyUITests/Pods-MyMoney-MyMoneyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyMoney-MyMoneyUITests/Pods-MyMoney-MyMoneyUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8B030C79C1B2F8D408E1CC6C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MyMoneyTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CBB7DDF00813B69CC59D20A9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MyMoney/Pods-MyMoney-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MyMoney/Pods-MyMoney-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyMoney/Pods-MyMoney-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D8C484835A210131D0572D8A /* [CP] Check Pods Manifest.lock */ = {
+		2496EEA9CF510AC081D343F6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -440,7 +384,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DED817A04FD4B94774EA0D39 /* [CP] Check Pods Manifest.lock */ = {
+		3ABD01FEF9CDC6CBC1F20997 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -460,6 +404,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85C39508F31F6615D6CC7367 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyMoney/Pods-MyMoney-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyMoney/Pods-MyMoney-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyMoney/Pods-MyMoney-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E208F49EFA9301370F9A41BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyMoneyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F882251B1C6CA302037A28DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyMoney-MyMoneyUITests/Pods-MyMoney-MyMoneyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyMoney-MyMoneyUITests/Pods-MyMoney-MyMoneyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyMoney-MyMoneyUITests/Pods-MyMoney-MyMoneyUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -641,7 +641,7 @@
 		};
 		2A6F6DAE2868C0EE00D25435 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E21D2E40EBC527E28912A2AD /* Pods-MyMoney.debug.xcconfig */;
+			baseConfigurationReference = 3F131ACAF76BE9BC4FE5D11A /* Pods-MyMoney.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -661,7 +661,7 @@
 		};
 		2A6F6DAF2868C0EE00D25435 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F355389CB659F36751E6344F /* Pods-MyMoney.release.xcconfig */;
+			baseConfigurationReference = 1F1DBE5FFFCFA754EFF3F242 /* Pods-MyMoney.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -681,7 +681,7 @@
 		};
 		2A6F6DB12868C0EE00D25435 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4FE69B54474A7F37F3791A8 /* Pods-MyMoneyTests.debug.xcconfig */;
+			baseConfigurationReference = 8F141D5BDA7496678A70B5F0 /* Pods-MyMoneyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -704,7 +704,7 @@
 		};
 		2A6F6DB22868C0EE00D25435 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEC58327E1F167EBBE3C3217 /* Pods-MyMoneyTests.release.xcconfig */;
+			baseConfigurationReference = 9E8AC3980779B48D23A58C49 /* Pods-MyMoneyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -727,7 +727,7 @@
 		};
 		2A6F6DB42868C0EE00D25435 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 403851A0D3E0E97638C14425 /* Pods-MyMoney-MyMoneyUITests.debug.xcconfig */;
+			baseConfigurationReference = AB296D0A43A67A0492507118 /* Pods-MyMoney-MyMoneyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -748,7 +748,7 @@
 		};
 		2A6F6DB52868C0EE00D25435 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A33FBA3EE1EF61F819C3202 /* Pods-MyMoney-MyMoneyUITests.release.xcconfig */;
+			baseConfigurationReference = 84590BD8B2C95D78597BC399 /* Pods-MyMoney-MyMoneyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
