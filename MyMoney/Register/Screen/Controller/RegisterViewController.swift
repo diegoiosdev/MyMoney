@@ -10,6 +10,8 @@ import UIKit
 class RegisterViewController: UIViewController {
     
     var registerScreen: RegisterScreen?
+    //    var auth:Auth?
+//        var alert :Alert?
     
     override func loadView() {
         self.registerScreen = RegisterScreen()
@@ -20,6 +22,8 @@ class RegisterViewController: UIViewController {
         super.viewDidLoad()
         self.registerScreen?.configTextFieldDelegate(delegate: self)
         self.registerScreen?.delegate(delegate: self)
+//        self.auth = Auth.auth()
+//        self.alert = Alert(controller: self)
     }
 }
 
@@ -28,6 +32,11 @@ class RegisterViewController: UIViewController {
 
 
 extension RegisterViewController:UITextFieldDelegate {
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        self.registerScreen?.validaTextField()
+    }
+    
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
@@ -39,13 +48,32 @@ extension RegisterViewController:UITextFieldDelegate {
 extension RegisterViewController:RegisterScreenProtocol{
     
     func actionBackButton() {
-        print("Back button!!")
+
         self.navigationController?.popViewController(animated: true)
     }
     
     func actionRegisterButton() {
-        print("Register  button!!")
-    }
-    
-    
+   
+        
+//        guard let register = self.registerScreen else  {return}
+        
+//        let email:String = register.getEmail()
+//        let password:String = register.getPassword()
+        
+//        self.auth?.createUser(withEmail: register.getEmail() ,password:register.getPassword(), completion: {(result , Error ) in
+//
+//            if error != nil {
+//        self.alert?.getAlert(titulo: "Atenção", mensagem: "Erro ao realizar cadastro")
+//
+//
+//            }else {
+//        self.alert?.getAlert(titulo: "Parabens", mensagem: "Usuario cadastrado com sucesso", completion: {
+        
+//            self.navigationController?.popViewController(animated: true)
+            
+//        })
+//
+//            }
+//        })
+   }
 }

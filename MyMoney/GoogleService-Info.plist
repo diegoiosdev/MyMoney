@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>672101135628-a9jbs1dr2sr6php4di3rmea5dv4ckl9r.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.672101135628-a9jbs1dr2sr6php4di3rmea5dv4ckl9r</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC76XMh8T7oBB_ARh6wYnhhGsgSo_d4Wlo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>672101135628</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Diego-Fernando-S-S.MyMoney</string>
+	<key>PROJECT_ID</key>
+	<string>mymoney-9e8b3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mymoney-9e8b3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:672101135628:ios:bfbdec85badc38a7bd8529</string>
+</dict>
+</plist>

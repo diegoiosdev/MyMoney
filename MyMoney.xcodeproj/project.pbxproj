@@ -16,10 +16,15 @@
 		2A6F6D9E2868C0EE00D25435 /* MyMoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6F6D9D2868C0EE00D25435 /* MyMoneyTests.swift */; };
 		2A6F6DA92868C0EE00D25435 /* MyMoneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6F6DA82868C0EE00D25435 /* MyMoneyUITests.swift */; };
 		2A6F6DC02868C44A00D25435 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2A6F6DBF2868C44A00D25435 /* Podfile */; };
-		2A9E897E2869D64000B4380B /* Teste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9E897D2869D64000B4380B /* Teste.swift */; };
 		2A9E898B2869E0FA00B4380B /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9E898A2869E0FA00B4380B /* LoginScreen.swift */; };
 		2A9E89AC286A334400B4380B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9E89AB286A334400B4380B /* RegisterViewController.swift */; };
 		2A9E89FC286A520200B4380B /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9E89FB286A520200B4380B /* RegisterScreen.swift */; };
+		2A9E8A7C286B95AD00B4380B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A9E8A7B286B95AD00B4380B /* GoogleService-Info.plist */; };
+		2A9E8A82286C897A00B4380B /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9E8A81286C897A00B4380B /* Alert.swift */; };
+		2A9E8A98286CC17800B4380B /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9E8A97286CC17800B4380B /* HomeVC.swift */; };
+		2A9E8A9D286CC28F00B4380B /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9E8A9C286CC28F00B4380B /* HomeScreen.swift */; };
+		2A9E8AA3286CE0CC00B4380B /* UserDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9E8AA2286CE0CC00B4380B /* UserDetailTableViewCell.swift */; };
+		2A9E8AAC286CE54000B4380B /* DataUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9E8AAB286CE54000B4380B /* DataUser.swift */; };
 		BCD8AA325E2EFFCFA8F33528 /* Pods_MyMoney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C998511907106087E7B66CBC /* Pods_MyMoney.framework */; };
 		BE7085C2F428123FB6D5C64E /* Pods_MyMoney_MyMoneyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EAD915B3B1BAFABA6BE9F2 /* Pods_MyMoney_MyMoneyUITests.framework */; };
 		D1A876538719B2150335546C /* Pods_MyMoneyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B63778254F26C5BD98CB45 /* Pods_MyMoneyTests.framework */; };
@@ -58,10 +63,15 @@
 		2A6F6DA82868C0EE00D25435 /* MyMoneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMoneyUITests.swift; sourceTree = "<group>"; };
 		2A6F6DAA2868C0EE00D25435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A6F6DBF2868C44A00D25435 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2A9E897D2869D64000B4380B /* Teste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teste.swift; sourceTree = "<group>"; };
 		2A9E898A2869E0FA00B4380B /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		2A9E89AB286A334400B4380B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		2A9E89FB286A520200B4380B /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
+		2A9E8A7B286B95AD00B4380B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2A9E8A81286C897A00B4380B /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		2A9E8A97286CC17800B4380B /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		2A9E8A9C286CC28F00B4380B /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		2A9E8AA2286CE0CC00B4380B /* UserDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailTableViewCell.swift; sourceTree = "<group>"; };
+		2A9E8AAB286CE54000B4380B /* DataUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUser.swift; sourceTree = "<group>"; };
 		36B63778254F26C5BD98CB45 /* Pods_MyMoneyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMoneyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		403851A0D3E0E97638C14425 /* Pods-MyMoney-MyMoneyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMoney-MyMoneyUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyMoney-MyMoneyUITests/Pods-MyMoney-MyMoneyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4A33FBA3EE1EF61F819C3202 /* Pods-MyMoney-MyMoneyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMoney-MyMoneyUITests.release.xcconfig"; path = "Target Support Files/Pods-MyMoney-MyMoneyUITests/Pods-MyMoney-MyMoneyUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -105,7 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				2A6F6DBF2868C44A00D25435 /* Podfile */,
-				2A9E897D2869D64000B4380B /* Teste.swift */,
 				2A6F6D822868C0EA00D25435 /* MyMoney */,
 				2A6F6D9C2868C0EE00D25435 /* MyMoneyTests */,
 				2A6F6DA72868C0EE00D25435 /* MyMoneyUITests */,
@@ -128,6 +137,8 @@
 		2A6F6D822868C0EA00D25435 /* MyMoney */ = {
 			isa = PBXGroup;
 			children = (
+				2A9E8A89286CC0BD00B4380B /* Home */,
+				2A9E8A80286C896500B4380B /* Alert */,
 				2A9E899A286A319500B4380B /* Register */,
 				2AE0576C2869C43100AF80D6 /* Login */,
 				2A6F6D832868C0EA00D25435 /* AppDelegate.swift */,
@@ -135,6 +146,7 @@
 				2A6F6D852868C0EA00D25435 /* SceneDelegate.swift */,
 				2A6F6D8F2868C0EE00D25435 /* Assets.xcassets */,
 				2A6F6D942868C0EE00D25435 /* Info.plist */,
+				2A9E8A7B286B95AD00B4380B /* GoogleService-Info.plist */,
 				2A6F6D8C2868C0EA00D25435 /* MyMoney.xcdatamodeld */,
 			);
 			path = MyMoney;
@@ -198,6 +210,57 @@
 				2A9E89AB286A334400B4380B /* RegisterViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		2A9E8A80286C896500B4380B /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				2A9E8A81286C897A00B4380B /* Alert.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		2A9E8A89286CC0BD00B4380B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2A9E8AAA286CE52B00B4380B /* Model */,
+				2A9E8AA1286CE07800B4380B /* Cell */,
+				2A9E8A8B286CC0CD00B4380B /* Screen */,
+				2A9E8A8A286CC0C700B4380B /* VC */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2A9E8A8A286CC0C700B4380B /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				2A9E8A97286CC17800B4380B /* HomeVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		2A9E8A8B286CC0CD00B4380B /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				2A9E8A9C286CC28F00B4380B /* HomeScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		2A9E8AA1286CE07800B4380B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2A9E8AA2286CE0CC00B4380B /* UserDetailTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2A9E8AAA286CE52B00B4380B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A9E8AAB286CE54000B4380B /* DataUser.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		2AE0576C2869C43100AF80D6 /* Login */ = {
@@ -340,6 +403,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A6F6DC02868C44A00D25435 /* Podfile in Resources */,
+				2A9E8A7C286B95AD00B4380B /* GoogleService-Info.plist in Resources */,
 				2A6F6D932868C0EE00D25435 /* LaunchScreen.storyboard in Resources */,
 				2A6F6D902868C0EE00D25435 /* Assets.xcassets in Resources */,
 			);
@@ -469,13 +533,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A9E8A82286C897A00B4380B /* Alert.swift in Sources */,
+				2A9E8AA3286CE0CC00B4380B /* UserDetailTableViewCell.swift in Sources */,
+				2A9E8AAC286CE54000B4380B /* DataUser.swift in Sources */,
 				2A6F6D882868C0EA00D25435 /* LoginViewCode.swift in Sources */,
 				2A6F6D842868C0EA00D25435 /* AppDelegate.swift in Sources */,
+				2A9E8A98286CC17800B4380B /* HomeVC.swift in Sources */,
 				2A9E89AC286A334400B4380B /* RegisterViewController.swift in Sources */,
 				2A6F6D8E2868C0EA00D25435 /* MyMoney.xcdatamodeld in Sources */,
+				2A9E8A9D286CC28F00B4380B /* HomeScreen.swift in Sources */,
 				2A9E89FC286A520200B4380B /* RegisterScreen.swift in Sources */,
 				2A6F6D862868C0EA00D25435 /* SceneDelegate.swift in Sources */,
-				2A9E897E2869D64000B4380B /* Teste.swift in Sources */,
 				2A9E898B2869E0FA00B4380B /* LoginScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
