@@ -25,6 +25,13 @@
 		2A9E8A9D286CC28F00B4380B /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9E8A9C286CC28F00B4380B /* HomeScreen.swift */; };
 		2A9E8AA3286CE0CC00B4380B /* UserDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9E8AA2286CE0CC00B4380B /* UserDetailTableViewCell.swift */; };
 		2A9E8AAC286CE54000B4380B /* DataUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9E8AAB286CE54000B4380B /* DataUser.swift */; };
+		2AA81516286DD4B000ED9DE7 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA81515286DD4B000ED9DE7 /* UserDetailView.swift */; };
+		2AA81522286DD68E00ED9DE7 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA81521286DD68E00ED9DE7 /* Service.swift */; };
+		2AA8152F286DF77300ED9DE7 /* SportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA8152E286DF77300ED9DE7 /* SportTableViewCell.swift */; };
+		2AA81538286E0B3A00ED9DE7 /* SportTableViewCellScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA81537286E0B3A00ED9DE7 /* SportTableViewCellScreen.swift */; };
+		2AA81541286E1E0000ED9DE7 /* SportCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA81540286E1E0000ED9DE7 /* SportCollectionViewCell.swift */; };
+		2AA81546286E1E6900ED9DE7 /* SportCollectionViewCellScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA81545286E1E6900ED9DE7 /* SportCollectionViewCellScreen.swift */; };
+		2AA81556286E51EB00ED9DE7 /* Sport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA81555286E51EB00ED9DE7 /* Sport.swift */; };
 		BCD8AA325E2EFFCFA8F33528 /* Pods_MyMoney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C998511907106087E7B66CBC /* Pods_MyMoney.framework */; };
 		BE7085C2F428123FB6D5C64E /* Pods_MyMoney_MyMoneyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EAD915B3B1BAFABA6BE9F2 /* Pods_MyMoney_MyMoneyUITests.framework */; };
 		D1A876538719B2150335546C /* Pods_MyMoneyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B63778254F26C5BD98CB45 /* Pods_MyMoneyTests.framework */; };
@@ -72,6 +79,13 @@
 		2A9E8A9C286CC28F00B4380B /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		2A9E8AA2286CE0CC00B4380B /* UserDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailTableViewCell.swift; sourceTree = "<group>"; };
 		2A9E8AAB286CE54000B4380B /* DataUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUser.swift; sourceTree = "<group>"; };
+		2AA81515286DD4B000ED9DE7 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		2AA81521286DD68E00ED9DE7 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		2AA8152E286DF77300ED9DE7 /* SportTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportTableViewCell.swift; sourceTree = "<group>"; };
+		2AA81537286E0B3A00ED9DE7 /* SportTableViewCellScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportTableViewCellScreen.swift; sourceTree = "<group>"; };
+		2AA81540286E1E0000ED9DE7 /* SportCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportCollectionViewCell.swift; sourceTree = "<group>"; };
+		2AA81545286E1E6900ED9DE7 /* SportCollectionViewCellScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportCollectionViewCellScreen.swift; sourceTree = "<group>"; };
+		2AA81555286E51EB00ED9DE7 /* Sport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sport.swift; sourceTree = "<group>"; };
 		36B63778254F26C5BD98CB45 /* Pods_MyMoneyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMoneyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		403851A0D3E0E97638C14425 /* Pods-MyMoney-MyMoneyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMoney-MyMoneyUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyMoney-MyMoneyUITests/Pods-MyMoney-MyMoneyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4A33FBA3EE1EF61F819C3202 /* Pods-MyMoney-MyMoneyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMoney-MyMoneyUITests.release.xcconfig"; path = "Target Support Files/Pods-MyMoney-MyMoneyUITests/Pods-MyMoney-MyMoneyUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +151,7 @@
 		2A6F6D822868C0EA00D25435 /* MyMoney */ = {
 			isa = PBXGroup;
 			children = (
+				2AA81520286DD67A00ED9DE7 /* Service */,
 				2A9E8A89286CC0BD00B4380B /* Home */,
 				2A9E8A80286C896500B4380B /* Alert */,
 				2A9E899A286A319500B4380B /* Register */,
@@ -250,7 +265,8 @@
 		2A9E8AA1286CE07800B4380B /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				2A9E8AA2286CE0CC00B4380B /* UserDetailTableViewCell.swift */,
+				2AA8152D286DF73200ED9DE7 /* SportTableViewCell */,
+				2AA81514286DD45C00ED9DE7 /* UserDetailTableViewCell */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -259,8 +275,69 @@
 			isa = PBXGroup;
 			children = (
 				2A9E8AAB286CE54000B4380B /* DataUser.swift */,
+				2AA81555286E51EB00ED9DE7 /* Sport.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		2AA81514286DD45C00ED9DE7 /* UserDetailTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2A9E8AA2286CE0CC00B4380B /* UserDetailTableViewCell.swift */,
+				2AA81529286DF57100ED9DE7 /* CustonView */,
+			);
+			path = UserDetailTableViewCell;
+			sourceTree = "<group>";
+		};
+		2AA81520286DD67A00ED9DE7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2AA81521286DD68E00ED9DE7 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2AA81529286DF57100ED9DE7 /* CustonView */ = {
+			isa = PBXGroup;
+			children = (
+				2AA81515286DD4B000ED9DE7 /* UserDetailView.swift */,
+			);
+			path = CustonView;
+			sourceTree = "<group>";
+		};
+		2AA8152D286DF73200ED9DE7 /* SportTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2AA8153F286E1D8D00ED9DE7 /* CollectionViewCell */,
+				2AA81536286E0B0E00ED9DE7 /* CustonView */,
+				2AA8152E286DF77300ED9DE7 /* SportTableViewCell.swift */,
+			);
+			path = SportTableViewCell;
+			sourceTree = "<group>";
+		};
+		2AA81536286E0B0E00ED9DE7 /* CustonView */ = {
+			isa = PBXGroup;
+			children = (
+				2AA81537286E0B3A00ED9DE7 /* SportTableViewCellScreen.swift */,
+			);
+			path = CustonView;
+			sourceTree = "<group>";
+		};
+		2AA8153F286E1D8D00ED9DE7 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2AA81540286E1E0000ED9DE7 /* SportCollectionViewCell.swift */,
+				2AA8154A286E1E7000ED9DE7 /* CollectionCustonView */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		2AA8154A286E1E7000ED9DE7 /* CollectionCustonView */ = {
+			isa = PBXGroup;
+			children = (
+				2AA81545286E1E6900ED9DE7 /* SportCollectionViewCellScreen.swift */,
+			);
+			path = CollectionCustonView;
 			sourceTree = "<group>";
 		};
 		2AE0576C2869C43100AF80D6 /* Login */ = {
@@ -534,17 +611,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A9E8A82286C897A00B4380B /* Alert.swift in Sources */,
+				2AA81522286DD68E00ED9DE7 /* Service.swift in Sources */,
 				2A9E8AA3286CE0CC00B4380B /* UserDetailTableViewCell.swift in Sources */,
 				2A9E8AAC286CE54000B4380B /* DataUser.swift in Sources */,
+				2AA81556286E51EB00ED9DE7 /* Sport.swift in Sources */,
+				2AA81538286E0B3A00ED9DE7 /* SportTableViewCellScreen.swift in Sources */,
+				2AA81546286E1E6900ED9DE7 /* SportCollectionViewCellScreen.swift in Sources */,
 				2A6F6D882868C0EA00D25435 /* LoginViewCode.swift in Sources */,
+				2AA81516286DD4B000ED9DE7 /* UserDetailView.swift in Sources */,
 				2A6F6D842868C0EA00D25435 /* AppDelegate.swift in Sources */,
 				2A9E8A98286CC17800B4380B /* HomeVC.swift in Sources */,
 				2A9E89AC286A334400B4380B /* RegisterViewController.swift in Sources */,
+				2AA8152F286DF77300ED9DE7 /* SportTableViewCell.swift in Sources */,
 				2A6F6D8E2868C0EA00D25435 /* MyMoney.xcdatamodeld in Sources */,
 				2A9E8A9D286CC28F00B4380B /* HomeScreen.swift in Sources */,
 				2A9E89FC286A520200B4380B /* RegisterScreen.swift in Sources */,
 				2A6F6D862868C0EA00D25435 /* SceneDelegate.swift in Sources */,
 				2A9E898B2869E0FA00B4380B /* LoginScreen.swift in Sources */,
+				2AA81541286E1E0000ED9DE7 /* SportCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

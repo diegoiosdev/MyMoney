@@ -1,17 +1,14 @@
 //
-//  UserDetailTableViewCell.swift
+//  UserDetailView.swift
 //  MyMoney
 //
-//  Created by Diego Fernando on 29/06/22.
+//  Created by Diego Fernando on 30/06/22.
 //
 
 import UIKit
 
-class UserDetailTableViewCell: UITableViewCell {
+class UserDetailView: UIView{
 
-    static let identifier:String = "UserDetailTableViewCell"
-    
-    
     lazy var userImageView: UIImageView = {
         let image = UIImageView()
         image.translatesAutoresizingMaskIntoConstraints = false
@@ -25,14 +22,15 @@ class UserDetailTableViewCell: UITableViewCell {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.textColor = .black
-        label.font = UIFont.boldSystemFont(ofSize: 50)
+        label.font = UIFont.boldSystemFont(ofSize: 25)
         label.text = "Bem Vindo"
         return label
     }()
     
     
-    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
-        super.init(style: style, reuseIdentifier: reuseIdentifier)
+    
+   override init(frame: CGRect) {
+        super.init(frame: frame)
         self.addSubview()
         self.setUpContraints()
     }
@@ -41,29 +39,38 @@ class UserDetailTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-     func addSubview(){
-        self.contentView.addSubview(self.userImageView)
-        self.contentView.addSubview(self.nameLabel)
-    }
-    
-    public func setUpCell(data:DataUser){
-        self.nameLabel.text = data.name
-        self.userImageView.image = UIImage(named: data.nameImage)
-    }
+    func addSubview(){
+       self.addSubview(self.userImageView)
+       self.addSubview(self.nameLabel)
+   }
     
     
     private  func setUpContraints() {
           NSLayoutConstraint.activate([
-            
+
             self.userImageView.centerYAnchor.constraint(equalTo: self.centerYAnchor),
             self.userImageView.leadingAnchor.constraint(equalTo: self.leadingAnchor),
-            self.userImageView.heightAnchor.constraint(equalToConstant: 80),
-            self.userImageView.widthAnchor.constraint(equalToConstant: 80),
-            
+            self.userImageView.heightAnchor.constraint(equalToConstant: 50),
+            self.userImageView.widthAnchor.constraint(equalToConstant: 50),
+
             self.nameLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor),
-            self.nameLabel.leadingAnchor.constraint(equalTo: self.userImageView.trailingAnchor,constant: 20),
-        
-            
+            self.nameLabel.leadingAnchor.constraint(equalTo:self.userImageView.trailingAnchor,constant: 20),
+
+
        ])
    }
+    
+    func configUserImageViewConstraints() {
+        self.userImageView.snp.makeConstraints { (make) in
+            make.centerY.leading.equalToSuperview()
+            make.height.width.equalTo(80)
+        }
+    }
+    
+    func configNameLabelConstraints() {
+        self.nameLabel.snp.makeConstraints { (make) in
+            make.centerY.equalToSuperview()
+            make.leading.equalTo(self.userImageView.snp.trailing).offset(20)
+        }
+    }
 }
